@@ -16,7 +16,7 @@ function decrease() {
   intervalId = setInterval(shrink, 20);
 }
 function shrink() {
-  if (width > 400) {
+  if (width > 500) {
     width = width - unit;
     document.getElementById("img1").width = width;
   } else {
